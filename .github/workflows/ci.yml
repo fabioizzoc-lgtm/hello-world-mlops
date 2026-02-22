@@ -24,7 +24,7 @@ jobs:
           python-version: ${{ matrix.python }}
 
       - name: Upgrade pip
-        run: pip install --upgrade pip upgrade setuptools wheel
+        run: pip install --upgrade pip setuptools wheel
 
       - name: install project dependencies
         run: pip install -r requirements.txt
